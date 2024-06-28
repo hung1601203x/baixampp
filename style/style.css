@@ -1,0 +1,13 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+td {
+  border-bottom: 1px solid #f7f4f4;
+  padding: 10px 8px;
+}
+tr:hover td {
+  @apply bg-slate-100 duration-75 cursor-default;
+}
+
